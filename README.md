@@ -19,7 +19,7 @@ Application using Spring and Java to build a feature-complete API. A single-page
 - Spring Boot - Spring Web
 - Gradle
 
-1. The ==KeyValue dependency== was used to provide all the implementation details. 
+1. The KeyValue dependency was used to provide all the implementation details. 
 2. Used Data Validation with Spring Boot to customize the error output.
 3. Used a demo client application to test the API.
 4. The RESTful web service includes CORS access control headers in its response. But it's restricted to enable CORS only from the [Whatabyte](https://dashboard.whatabyte.app) origin, which is the URL of the demo application.
